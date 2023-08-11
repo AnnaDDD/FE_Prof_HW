@@ -1,0 +1,36 @@
+.rent_container {
+    display: flex;
+    gap: 67px;
+}
+
+.rent_container img {
+    width: 637px;
+    height: 800px;
+}
+
+.text_wrapper {
+    max-width: 602px;
+    color: #22356f;
+}
+
+.text_wrapper h2 {
+    color: #22356F;
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 76.83%;
+    letter-spacing: -0.216px;
+    margin-top: 242px;
+    margin-bottom: 49px;
+}
+
+.text_wrapper p {
+    color: #22356F;
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 147.75%;
+    letter-spacing: -0.36px;
+}

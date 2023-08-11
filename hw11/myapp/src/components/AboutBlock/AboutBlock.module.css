@@ -1,0 +1,21 @@
+.container {
+    height: 633px; 
+    background-color: #ffffff;
+    padding-top: 250px;
+    padding-bottom: 138px;
+    padding-left: 397px;   
+}
+
+.container p {
+    max-width: 739px;
+    color: #22356F;
+    font-family: ABeeZee;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 141.84%;
+    letter-spacing: 0.12px;
+}
+.first_text{
+    margin-bottom: 25px;
+}

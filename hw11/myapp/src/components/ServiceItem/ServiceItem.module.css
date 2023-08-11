@@ -1,0 +1,13 @@
+.service_item{
+   padding: 96px 70px 20px; 
+}
+
+.service_item p{
+    color: #FFF;
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    padding-top: 30px;
+    border-top: 1px solid white;
+}
