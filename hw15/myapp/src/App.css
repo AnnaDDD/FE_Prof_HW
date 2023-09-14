@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter; 
+}
+.container {
+  max-width: 913px;
+  margin: 0 auto;
+  background: #FFF;
+  padding: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+  
+body {
+    background: #B3D0FC;
+  }
+input{
+    padding: 6px 10px;
+  }
+  .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+  }
+  .card-content{
+    position: relative;
+    width: 100%;
+  }
+  
+  .credit-card {
+    width: 388px;
+    height: 239px;
+    border-radius: 10px;
+    border: 0px solid #000;
+    background: #ECECEC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 24px 0;
+    padding: 24px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 20;
+    
+  }
+
+.form-item input{
+  /* width: 100%; */
+  height: 42px; 
+}
+.form-date input{
+  width: 73px;
+
+}
+  .card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .card-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.slash{
+  font-size: 30px;
+  color: #ADADAD; 
+}
+  
+  .card-back {
+    width: 388px;
+    height: 239px;
+    border-radius: 10px;
+    background: #C7C7C7;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    z-index: 10;
+  } 
+  .card-line{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+  }
+  .cvc-input {
+    margin-right: 30px;
+    display: block;
+    width: 73px;
+    height: 42px; 
+  }
+  
+  .send-button {
+    border-radius: 11px;
+    background: #95B0D8;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 20px;
+    margin-top: 63px; 
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-bottom: 55px;
+  }
+
+  .table-wrapper{
+    border-radius: 28px;
+    background: #95B0D8; 
+    padding: 20px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .data-table th{
+    background-color: #ECECEC;
+  }
+  .data-table td{
+    background-color: #FFF;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    
+  }
+
+  .alert {
+    color: red;
+   
+  }
+
+  .has-error{
+  border:  1px solid red;
+  }
+  
+  
+
+  
